@@ -2,7 +2,7 @@
 
 This project implements an image captioning system using multiple deep learning models to generate descriptive captions for images from the Flickr8k dataset. It includes implementations using LSTM, GRU, BART, GPT-2, and a Flask-based web interface for real-time caption generation with ViT-GPT2 and BLIP models. Below is an overview of the project, its components, setup instructions, and usage details.
 
-Table of Contents
+# Table of Contents
 
 Project Overview
 Dataset
@@ -14,7 +14,7 @@ GPT-2
 Flask Web Interface
 
 
-Installation
+# Installation
 Usage
 Evaluation
 File Structure
@@ -25,7 +25,7 @@ Future Improvements
 License
 
 
-Project Overview
+# Project Overview
 The project aims to generate descriptive captions for images using deep learning models. It leverages pre-trained convolutional neural networks (CNNs) like ResNet-152 for feature extraction and recurrent neural networks (RNNs) like LSTM and GRU, as well as transformer-based models like BART and GPT-2 for caption generation. A Flask web interface is provided for interactive caption generation using ViT-GPT2 and BLIP models, with BLEU score evaluation to compare generated captions.
 
 Dataset
@@ -41,7 +41,7 @@ Images are resized to 600x600 (or 224x224 for transformer models) and normalized
 
 
 
-Models
+# Models
 LSTM
 
 Architecture:
