@@ -1,4 +1,5 @@
-Image Captioning Project README
+# 🧠 Image_Captioning
+
 This project implements an image captioning system using multiple deep learning models to generate descriptive captions for images from the Flickr8k dataset. It includes implementations using LSTM, GRU, BART, GPT-2, and a Flask-based web interface for real-time caption generation with ViT-GPT2 and BLIP models. Below is an overview of the project, its components, setup instructions, and usage details.
 
 Table of Contents
