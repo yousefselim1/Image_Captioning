@@ -195,20 +195,6 @@ Flask: Shows the uploaded image with captions from both models and their BLEU sc
 
 
 
-
-File Structure
-image-captioning-project/
-├── app.py                   # Flask application script
-├── image_features_flickr8k.pkl  # Saved ResNet-152 features
-├── generated_captions_flickr8k.pkl  # Saved captions (BART/GPT-2)
-├── generated_captions_sample.pkl  # Sample captions (BART)
-├── requirements.txt         # List of dependencies
-├── README.md                # This file
-└── /kaggle/input/flickr8k/  # Dataset directory (downloaded via kagglehub)
-    ├── Images/              # Image files
-    └── captions.txt         # Caption annotations
-
-
 Dependencies
 The project requires the following Python packages:
 torch
